@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>autocomplete demo</title>
+	<style>
+		html,body{
+			height:100%;
+			margin:0;
+			padding:0;
+		}
+		div.a{
+			width: 200px;
+			height: 200px;
+		}
+		div label,
+		div input{
+			display: inline-block; 
+		}
+		div input{
+			max-width: 70%;
+		}
+	</style>
+</head>
+<body>
+	<div class="a">
+		<label>demo:</label>
+		<input type="text" id="a"/>
+	</div>
+	<script src="../dist/autocomplete.js"></script>
+<script>
+	var str = "This is a native JS of the fuzzy search plug-in there are some features are not perfect is being improved";
+	var a = autocomplete(document.getElementById("a"),str.split(" "));
+</script>
+</body>
+</html>
