@@ -4,7 +4,7 @@
 
   下载autocomplete文件
 
-2. 引入 slick 插件（`dist` 目录下的 JS）：
+2. 引入 autocomplete 插件（`dist` 目录下的 JS）：
 
   ```html
   <script src="autocomplete.js"></script>
