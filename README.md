@@ -1,5 +1,7 @@
 # amaze-ui autocomplete
 
+[使用示例](http://orionwei.github.io/homework/autocomplete/docs/test.html)
+
 1. 获取 Amaze UI autocomplete
 
   下载autocomplete文件
